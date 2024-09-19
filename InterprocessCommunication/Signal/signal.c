@@ -52,6 +52,7 @@ int main(void)
     exit(EXIT_SUCCESS);
 }
 
+/*** Signal Handler ***/
 void signal_handler(int sig)
 {
     if(sig == SIGINT)
